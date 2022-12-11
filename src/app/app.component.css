@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.inp{
+    font-family:'Poppins';
+    color: black;
+    border-radius: 6px;
+    box-shadow: 0 0.1em 0.1em 0.1em black;
+    margin-top: 0; 
+    width: 15%;
+    height: 1cm;
+}
+.sec{
+    margin-top: 1em;
+}
+.search{
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 12em;
+    margin-top: -10em;
+}
+h1{
+    margin-left: 0.5em;
+    font-family:'Poppins';
+    color: orangered;
+}
+.table{
+    margin-top: 0.5em;
+    border-collapse: collapse;
+    width: 45%;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+tr{
+     color: black;
+    border-bottom: 1px solid black;
+}
+    tr:hover{
+        background-color:orangered ;
+        cursor: pointer;
+    }
+   
+
+th{
+    font-size: large;
+    font-family: 'Trebuchet MS';
+    font-weight: lighter;
+ background-color: black;
+ color:rgb(255, 73, 6);
+ 
+}
+td{
+    margin-left: 2em;
+}
+.id{
+    color: orangered;
+    background-color: black;
+    border-bottom: 1px solid orangered;
+}

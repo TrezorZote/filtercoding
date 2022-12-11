@@ -1,0 +1,30 @@
+<body>
+  <nav> 
+      <h1>Filter table code</h1>
+  </nav>
+  <section class="sec">
+    <div>
+      <form class="form">
+      <input  class="inp" type="search" (ngModelChange)="filterTable(key.value)" #key="ngModel"  ngModel name="key" placeholder="  enter name">
+      </form>
+    </div>
+  </section>
+  <hr>
+    <table class="table">
+      <tr>
+          <th>id</th>
+          <th>Vorname</th>
+          <th>Nachname</th>
+          <th>Alter</th>
+      </tr>
+      <tr *ngFor="let person of table">
+          <td class="id">{{person?.id}}</td>
+          <td> {{person?.vorname}}</td>
+          <td>{{person?.nachname}}</td>
+          <td>{{person?.alter}}</td>
+        </tr>
+    </table>
+  <hr>
+  
+  </body>
+  
